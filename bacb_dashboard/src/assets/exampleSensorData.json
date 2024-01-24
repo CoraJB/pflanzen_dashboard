@@ -1,0 +1,123 @@
+{
+  "name": "as.up.data.forward",
+  "time": "2023-06-10T17:52:30.972097016Z",
+  "identifiers": [
+    {
+      "device_ids": {
+        "device_id": "eui-a84041248185f280",
+        "application_ids": {
+          "application_id": "bacb-bodenfeuchte-projekt"
+        },
+        "dev_eui": "A84041248185F280",
+        "join_eui": "A840410000000101",
+        "dev_addr": "260B7573"
+      }
+    }
+  ],
+  "data": {
+    "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+    "end_device_ids": {
+      "device_id": "eui-a84041248185f280",
+      "application_ids": {
+        "application_id": "bacb-bodenfeuchte-projekt"
+      },
+      "dev_eui": "A84041248185F280",
+      "join_eui": "A840410000000101",
+      "dev_addr": "260B7573"
+    },
+    "correlation_ids": [
+      "as:up:01H2K70CQTTWRX58730ASNQMSD",
+      "gs:conn:01H2K3ZXA7KG55QMASK9D23ESH",
+      "gs:up:host:01H2K3ZXADY1W5R1KBKYQNQN5X",
+      "gs:uplink:01H2K70CH9MFAWEFD3P176S2H6",
+      "ns:uplink:01H2K70CHA013E9HMC4TB5MRJ3",
+      "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01H2K70CHAR1E8M44EF6TR3YN1",
+      "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01H2K70CQSGBNSDTXTC0S249RB"
+    ],
+    "received_at": "2023-06-10T17:52:30.969444269Z",
+    "uplink_message": {
+      "session_key_id": "AYeFVX1iD7J2HIKmyFJFtg==",
+      "f_port": 2,
+      "f_cnt": 4042,
+      "frm_payload": "DTEAAAT5CU0AKhA=",
+      "decoded_payload": {
+        "Bat": 3.377,
+        "TempC_DS18B20": "0.0",
+        "conduct_SOIL": 42,
+        "temp_SOIL": "23.81",
+        "water_SOIL": "12.73"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "eui-00800000a00058df",
+            "eui": "00800000A00058DF"
+          },
+          "time": "2023-06-10T17:52:29.696Z",
+          "timestamp": 3163795004,
+          "rssi": -114,
+          "channel_rssi": -114,
+          "snr": -6.5,
+          "uplink_token": "CiIKIAoUZXVpLTAwODAwMDAwYTAwMDU4ZGYSCACAAACgAFjfELzczuQLGgwI3vCSpAYQkNLv6gIg4LSCh4pcKgwI3fCSpAYQgLzwywI=",
+          "channel_index": 7,
+          "gps_time": "2023-06-10T17:52:29.696Z",
+          "received_at": "2023-06-10T17:52:30.729531544Z"
+        }
+      ],
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "867900000",
+        "timestamp": 3163795004,
+        "time": "2023-06-10T17:52:29.696Z"
+      },
+      "received_at": "2023-06-10T17:52:30.762301287Z",
+      "consumed_airtime": "0.061696s",
+      "locations": {
+        "user": {
+          "latitude": 51.20619,
+          "longitude": 6.8274,
+          "altitude": 46,
+          "source": "SOURCE_REGISTRY"
+        }
+      },
+      "version_ids": {
+        "brand_id": "dragino",
+        "model_id": "lse01",
+        "hardware_version": "_unknown_hw_version_",
+        "firmware_version": "1.3",
+        "band_id": "EU_863_870"
+      },
+      "network_ids": {
+        "net_id": "000013",
+        "tenant_id": "ttn",
+        "cluster_id": "eu1",
+        "cluster_address": "eu1.cloud.thethings.network"
+      }
+    }
+  },
+  "correlation_ids": [
+    "as:up:01H2K70CQTTWRX58730ASNQMSD",
+    "gs:conn:01H2K3ZXA7KG55QMASK9D23ESH",
+    "gs:up:host:01H2K3ZXADY1W5R1KBKYQNQN5X",
+    "gs:uplink:01H2K70CH9MFAWEFD3P176S2H6",
+    "ns:uplink:01H2K70CHA013E9HMC4TB5MRJ3",
+    "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01H2K70CHAR1E8M44EF6TR3YN1",
+    "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01H2K70CQSGBNSDTXTC0S249RB"
+  ],
+  "origin": "ip-10-100-15-185.eu-west-1.compute.internal",
+  "context": {
+    "tenant-id": "CgN0dG4="
+  },
+  "visibility": {
+    "rights": [
+      "RIGHT_APPLICATION_TRAFFIC_READ"
+    ]
+  },
+  "unique_id": "01H2K70CQWQWWB18KX4GYMV1GR"
+}

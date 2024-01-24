@@ -1,0 +1,10 @@
+{
+  "endDeviceID": "eui-a84041248185f280",
+  "plantName": "Antonia",
+  "soilMoistureMin": "20",
+  "soilMoistureMax": "50",
+  "soilTemperatureMin": "15",
+  "soilTemperatureMax": "25",
+  "soilConductivityMin": "20",
+  "soilConductivityMax": "10"
+}

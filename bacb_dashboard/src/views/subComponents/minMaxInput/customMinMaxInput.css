@@ -1,0 +1,30 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 1vw;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+}
+
+.label-text-min-max {
+    font-weight: bold;
+}
+
+.min-max-text {
+    color: rgb(100, 100, 100);
+}
+
+.input {
+    width: 50vw;
+    height: 4vh;
+}
+.tooltip-min-max {
+    margin-left: 0.5vw;
+}
+
+.optional-styling {
+    margin-top: 1vh;
+}

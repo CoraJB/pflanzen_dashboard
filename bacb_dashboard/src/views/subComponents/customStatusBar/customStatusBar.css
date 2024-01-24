@@ -1,0 +1,8 @@
+.status-bar-container {
+    width: 100vw;
+    height: 5%;
+}
+
+.bar {
+    height: 100vh;
+}

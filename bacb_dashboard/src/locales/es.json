@@ -1,0 +1,113 @@
+{
+  "plant-name": "Planta de Aguacate",
+  "needs-water": "La planta necesita ser regada",
+  "enough-water": "La planta tiene suficiente agua",
+  "dashboard-name": "Tablero de Control de Humedad del Suelo",
+  "synchronise": "Sincronizar",
+  "dropdown-title": "Seleccionar Planta",
+  "soil-moisture": "Humedad del Suelo",
+  "soil-temperature": "Temperatura del Suelo",
+  "soil-conductivity": "Conductividad del Suelo",
+  "last-updated": "Última Actualización: ",
+  "no-sensor-selected": "Ningún Sensor Seleccionado",
+  "min": "Mínimo",
+  "max": "Máximo",
+  "navigation": {
+    "home": "Inicio",
+    "settings": "Ajustes",
+    "view-detailed-data": "Ver Datos Detallados",
+    "view-long-term-data": "Ver Datos a Largo Plazo",
+    "change-thresholds": "Cambiar Umbrales",
+    "add-new-plant": "Agregar Nueva Planta",
+    "edit-plant-details": "Editar Detalles de la Planta",
+    "save-updated-thresholds": "Guardar Umbrales Actualizados",
+    "save-new-plant": "Guardar Nueva Planta",
+    "save-new-details": "Guardar Nuevos Detalles",
+    "back-to-dashboard": "Volver al Tablero de Control",
+    "update-details": "Actualizar Detalles"
+  },
+  "languages": "Cambiar idioma",
+  "locales": {
+    "en": "Inglés",
+    "ger": "Alemán",
+    "fr": "Francés",
+    "es": "Español",
+    "it": "Italiano",
+    "zh": "Chino Mandarín",
+    "hi": "Hindi",
+    "ar": "Árabe",
+    "pt": "Portugués",
+    "ru": "Ruso",
+    "ja": "Japonés",
+    "nl": "Holandés",
+    "ko": "Coreano"
+  },
+  "time-labels": {
+    "12AM": "12 AM",
+    "4AM": "4 AM",
+    "8AM": "8 AM",
+    "12PM": "12 PM",
+    "4PM": "4 PM",
+    "8PM": "8 PM"
+  },
+  "days-of-week": {
+    "week": "Semana",
+    "month": "Mes",
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mié",
+    "thu": "Jue",
+    "fri": "Vie",
+    "sat": "Sáb",
+    "sun": "Dom"
+  },
+  "time-ranges": {
+    "last-24h": "Últimas 24h",
+    "last-week": "Últimos Siete Días",
+    "last-month": "Último Mes",
+    "last-year": "Último Año"
+  },
+  "months": {
+    "january": "Enero",
+    "february": "Febrero",
+    "march": "Marzo",
+    "april": "Abril",
+    "mai": "Mayo",
+    "june": "Junio",
+    "july": "Julio",
+    "august": "Agosto",
+    "september": "Septiembre",
+    "october": "Octubre",
+    "november": "Noviembre",
+    "dezember": "Diciembre"
+  },
+  "weeks": {
+    "week-one": "Semana 1",
+    "week-two": "Semana 2",
+    "week-three": "Semana 3",
+    "week-four": "Semana 4"
+  },
+  "current-value": "Valor Actual: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "La cantidad de agua en el suelo en relación con las necesidades del árbol; para muchos árboles, los niveles de humedad óptimos del suelo se encuentran entre el 50% y el 60%.",
+    "tooltip-soil-temperature": "La calidez del suelo cerca del árbol; los umbrales típicos suelen oscilar entre 10°C y 25°C",
+    "tooltip-soil-conductivity": "La capacidad del suelo para transportar agua y nutrientes; los umbrales típicos varían entre 10 y 100 µS/cm"
+  },
+  "plant-details": {
+    "name-of-plant": "Nombre de la Planta/Árbol",
+    "tree-type": "Tipo de Árbol",
+    "tree-type-options": {
+      "tree-option-one": "Árbol de Aguacate",
+      "tree-option-two": "Árbol de Arce",
+      "tree-option-three": "Árbol de Roble"
+    },
+    "root-type": "Tipo de Raíz",
+    "root-type-options": {
+      "root-option-one": "Raíz Profunda",
+      "root-option-two": "Raíz Superficial",
+      "root-option-three": "Raíz de Corazón"
+    },
+    "end-device-id": "ID del Dispositivo Terminal"
+  },
+  "long-term-data-chart": "Gráfico de Datos a Largo Plazo"
+}

@@ -1,0 +1,113 @@
+{
+  "plant-name": "Pianta di Avocado",
+  "needs-water": "La pianta ha bisogno di acqua",
+  "enough-water": "La pianta ha abbastanza acqua",
+  "dashboard-name": "Dashboard di Umidità del Suolo",
+  "synchronise": "Sincronizza",
+  "dropdown-title": "Seleziona Pianta",
+  "soil-moisture": "Umidità del Suolo",
+  "soil-temperature": "Temperatura del Suolo",
+  "soil-conductivity": "Conducibilità del Suolo",
+  "last-updated": "Ultimo aggiornamento: ",
+  "no-sensor-selected": "Nessun sensore selezionato",
+  "min": "Minimo",
+  "max": "Massimo",
+  "navigation": {
+    "home": "Home",
+    "settings": "Impostazioni",
+    "view-detailed-data": "Visualizza Dati Dettagliati",
+    "view-long-term-data": "Visualizza Dati a Lungo Termine",
+    "change-thresholds": "Cambia Soglie",
+    "add-new-plant": "Aggiungi Nuova Pianta",
+    "edit-plant-details": "Modifica Dettagli della Pianta",
+    "save-updated-thresholds": "Salva Soglie Aggiornate",
+    "save-new-plant": "Salva Nuova Pianta",
+    "save-new-details": "Aggiorna Dettagli",
+    "back-to-dashboard": "Torna alla Dashboard",
+    "update-details": "Aggiorna Dettagli"
+  },
+  "languages": "Cambia lingua",
+  "locales": {
+    "en": "Inglese",
+    "ger": "Tedesco",
+    "fr": "Francese",
+    "es": "Spagnolo",
+    "it": "Italiano",
+    "zh": "Cinese mandarino",
+    "hi": "Hindi",
+    "ar": "Arabo",
+    "pt": "Portoghese",
+    "ru": "Russo",
+    "ja": "Giapponese",
+    "nl": "Olandese",
+    "ko": "Coreano"
+  },
+  "time-labels": {
+    "12AM": "12AM",
+    "4AM": "4AM",
+    "8AM": "8AM",
+    "12PM": "12PM",
+    "4PM": "4PM",
+    "8PM": "8PM"
+  },
+  "days-of-week": {
+    "week": "Settimana",
+    "month": "Mese",
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mer",
+    "thu": "Gio",
+    "fri": "Ven",
+    "sat": "Sab",
+    "sun": "Dom"
+  },
+  "time-ranges": {
+    "last-24h": "Ultime 24 Ore",
+    "last-week": "Ultima Settimana",
+    "last-month": "Ultimo Mese",
+    "last-year": "Ultimo Anno"
+  },
+  "months": {
+    "january": "Gennaio",
+    "february": "Febbraio",
+    "march": "Marzo",
+    "april": "Aprile",
+    "mai": "Maggio",
+    "june": "Giugno",
+    "july": "Luglio",
+    "august": "Agosto",
+    "september": "Settembre",
+    "october": "Ottobre",
+    "november": "Novembre",
+    "dezember": "Dicembre"
+  },
+  "weeks": {
+    "week-one": "Settimana 1",
+    "week-two": "Settimana 2",
+    "week-three": "Settimana 3",
+    "week-four": "Settimana 4"
+  },
+  "current-value": "Valore Attuale: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "La quantità di acqua nel terreno rispetto alle esigenze dell'albero; per molti alberi, i livelli ottimali di umidità del suolo si trovano tra il 50% e il 60%.",
+    "tooltip-soil-temperature": "Il calore del terreno vicino all'albero; i limiti tipici variano solitamente tra i 10°C e i 25°C",
+    "tooltip-soil-conductivity": "La capacità del terreno di trasportare acqua e nutrienti; i limiti tipici variano tra 10 e 100 µS/cm"
+  },
+  "plant-details": {
+    "name-of-plant": "Nome della Pianta/Albero",
+    "tree-type": "Tipo di Albero",
+    "tree-type-options": {
+      "tree-option-one": "Albero di Avocado",
+      "tree-option-two": "Albero di Acero",
+      "tree-option-three": "Albero di Quercia"
+    },
+    "root-type": "Tipo di Radice",
+    "root-type-options": {
+      "root-option-one": "Radice Profonda",
+      "root-option-two": "Radice Superficiale",
+      "root-option-three": "Radice a Cuore"
+    },
+    "end-device-id": "ID Dispositivo Finale"
+  },
+  "long-term-data-chart": "Grafico Dati a Lungo Termine"
+}

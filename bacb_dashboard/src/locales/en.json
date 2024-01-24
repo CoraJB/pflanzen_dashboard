@@ -1,0 +1,113 @@
+{
+  "plant-name": "Avocado Plant",
+  "needs-water": "Plant needs to be watered",
+  "enough-water": "Plant has enough water",
+  "dashboard-name": "Soil Moisture Dashboard",
+  "synchronise": "Synchronise",
+  "dropdown-title": "Select Plant",
+  "soil-moisture": "Soil Moisture",
+  "soil-temperature": "Soil Temperature",
+  "soil-conductivity": "Soil Conductivity",
+  "last-updated": "Last Updated: ",
+  "no-sensor-selected": "No Sensor selected",
+  "min": "Minimum",
+  "max": "Maximum",
+  "navigation": {
+    "home": "Home",
+    "settings": "Settings",
+    "view-detailed-data": "View Detailed Data",
+    "view-long-term-data": "View Long Term Data",
+    "change-thresholds": "Change Thresholds",
+    "add-new-plant": "Add New Plant",
+    "edit-plant-details": "Edit Plant Details",
+    "save-updated-thresholds": "Save Updated Thresholds",
+    "save-new-plant": "Save New Plant",
+    "save-new-details": "Update Details",
+    "back-to-dashboard": "Back to Dashboard",
+    "update-details": "Update Details"
+  },
+  "languages": "Change Language",
+  "locales": {
+    "en": "English",
+    "ger": "German",
+    "fr": "French",
+    "es": "Spanish",
+    "it": "Italian",
+    "zh": "Mandarin Chinese",
+    "hi": "Hindi",
+    "ar": "Arabic",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "ja": "Japanese",
+    "nl": "Dutch",
+    "ko": "Korean"
+  },
+  "time-labels": {
+    "12AM": "12 AM",
+    "4AM": "4 AM",
+    "8AM": "8 AM",
+    "12PM": "12 PM",
+    "4PM": "4 PM",
+    "8PM": "8 PM"
+  },
+  "days-of-week": {
+    "week": "Week",
+    "month": "Month",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "time-ranges": {
+    "last-24h": "Last 24h",
+    "last-week": "Last Seven Days",
+    "last-month": "Last Month",
+    "last-year": "Last Year"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "mai": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "dezember": "December"
+  },
+  "weeks": {
+    "week-one": "Week 1",
+    "week-two": "Week 2",
+    "week-three": "Week 3",
+    "week-four": "Week 4"
+  },
+  "current-value": "Current Value: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "The amount of water in the soil relative to the tree's needs; for many trees, optimal soil moisture levels fall between 50% and 60%.",
+    "tooltip-soil-temperature": "The warmth of the soil near the tree; typical thresholds usually range between 10°C and 25°C",
+    "tooltip-soil-conductivity": "The soil's capacity to transport water and nutrients; typical thresholds range between 10 and 100 µS/cm"
+  },
+  "plant-details": {
+    "name-of-plant": "Name of Plant/Tree",
+    "tree-type": "Tree Type",
+    "tree-type-options": {
+      "tree-option-one": "Avocado Tree",
+      "tree-option-two": "Maple Tree",
+      "tree-option-three": "Oak Tree"
+    },
+    "root-type": "Root Type",
+    "root-type-options": {
+      "root-option-one": "Deep Root",
+      "root-option-two": "Flat Root",
+      "root-option-three": "Heart Root"
+    },
+    "end-device-id": "End Device ID"
+  },
+  "long-term-data-chart": "Long Term Data Chart"
+}

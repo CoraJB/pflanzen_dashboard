@@ -1,0 +1,113 @@
+{
+  "plant-name": "Plante d'Avocat",
+  "needs-water": "La plante a besoin d'être arrosée",
+  "enough-water": "La plante a assez d'eau",
+  "dashboard-name": "Tableau de bord de l'humidité du sol",
+  "synchronise": "Synchroniser",
+  "dropdown-title": "Sélectionner la plante",
+  "soil-moisture": "Humidité du sol",
+  "soil-temperature": "Température du sol",
+  "soil-conductivity": "Conductivité du sol",
+  "last-updated": "Dernière mise à jour : ",
+  "no-sensor-selected": "Aucun capteur sélectionné",
+  "min": "Minimum",
+  "max": "Maximum",
+  "navigation": {
+    "home": "Accueil",
+    "settings": "Paramètres",
+    "view-detailed-data": "Voir les données détaillées",
+    "view-long-term-data": "Voir les données à long terme",
+    "change-thresholds": "Modifier les seuils",
+    "add-new-plant": "Ajouter une nouvelle plante",
+    "edit-plant-details": "Modifier les détails de la plante",
+    "save-updated-thresholds": "Enregistrer les seuils mis à jour",
+    "save-new-plant": "Enregistrer la nouvelle plante",
+    "save-new-details": "Enregistrer les nouveaux détails",
+    "back-to-dashboard": "Retour au tableau de bord",
+    "update-details": "Mettre à jour les détails"
+  },
+  "languages": "Changer de langue",
+  "locales": {
+    "en": "Anglais",
+    "ger": "Allemand",
+    "fr": "Français",
+    "es": "Espagnol",
+    "it": "Italien",
+    "zh": "Chinois mandarin",
+    "hi": "Hindi",
+    "ar": "Arabe",
+    "pt": "Portugais",
+    "ru": "Russe",
+    "ja": "Japonais",
+    "nl": "Néerlandais",
+    "ko": "Coréen"
+  },
+  "time-labels": {
+    "12AM": "00h",
+    "4AM": "04h",
+    "8AM": "08h",
+    "12PM": "12h",
+    "4PM": "16h",
+    "8PM": "20h"
+  },
+  "days-of-week": {
+    "week": "Semaine",
+    "month": "Mois",
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mer",
+    "thu": "Jeu",
+    "fri": "Ven",
+    "sat": "Sam",
+    "sun": "Dim"
+  },
+  "time-ranges": {
+    "last-24h": "Dernières 24h",
+    "last-week": "Derniers sept jours",
+    "last-month": "Le mois dernier",
+    "last-year": "L'année dernière"
+  },
+  "months": {
+    "january": "Janvier",
+    "february": "Février",
+    "march": "Mars",
+    "april": "Avril",
+    "mai": "Mai",
+    "june": "Juin",
+    "july": "Juillet",
+    "august": "Août",
+    "september": "Septembre",
+    "october": "Octobre",
+    "november": "Novembre",
+    "dezember": "Décembre"
+  },
+  "weeks": {
+    "week-one": "Semaine 1",
+    "week-two": "Semaine 2",
+    "week-three": "Semaine 3",
+    "week-four": "Semaine 4"
+  },
+  "current-value": "Valeur actuelle : ",
+  "tooltips": {
+    "tooltip-soil-moisture": "Quantité d'eau dans le sol par rapport aux besoins de l'arbre ; pour beaucoup d'arbres, les niveaux d'humidité du sol optimaux se situent entre 50% et 60%.",
+    "tooltip-soil-temperature": "La chaleur du sol près de l'arbre ; les seuils typiques varient généralement entre 10°C et 25°C",
+    "tooltip-soil-conductivity": "La capacité du sol à transporter l'eau et les nutriments ; les seuils typiques varient entre 10 et 100 µS/cm"
+  },
+  "plant-details": {
+    "name-of-plant": "Nom de la plante/de l'arbre",
+    "tree-type": "Type d'arbre",
+    "tree-type-options": {
+      "tree-option-one": "Avocatier",
+      "tree-option-two": "Érable",
+      "tree-option-three": "Chêne"
+    },
+    "root-type": "Type de racine",
+    "root-type-options": {
+      "root-option-one": "Racine profonde",
+      "root-option-two": "Racine plate",
+      "root-option-three": "Racine en cœur"
+    },
+    "end-device-id": "ID du périphérique final"
+  },
+  "long-term-data-chart": "Graphique des données à long terme"
+}

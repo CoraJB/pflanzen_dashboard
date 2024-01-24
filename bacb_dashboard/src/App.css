@@ -1,0 +1,29 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* styles.module.css */
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  border: 2px solid #007bff; /* Blauer Rahmen */
+  border-radius: 0.25rem;
+  background-color: #fff; /* Weißer Hintergrund */
+  color: #007bff; /* Blaue Schrift */
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: border-color 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.button:hover {
+  border-color: #ccc; /* Grauer Rahmen bei Hover */
+  background-color: #f0f0f0; /* Grauer Hintergrund bei Hover */
+  color: #000; /* Schwarze Schrift bei Hover */
+}

@@ -1,0 +1,120 @@
+{
+  "plant-name": "Avo -pflanze",
+  "needs-water": "Die Pflanze muss gegossen werden",
+  "enough-water": "Die Pflanze hat genug Wasser",
+  "dashboard-name": "Dashboard für Bodenfeuchtigkeit",
+  "synchronise": "Synchronisieren",
+  "dropdown-title": "Pflanze auswählen",
+  "soil-moisture": "Bodenfeuchtigkeit",
+  "soil-temperature": "Bodentemperatur",
+  "soil-conductivity": "Bodenleitfähigkeit",
+  "last-updated": "Zuletzt aktualisiert: ",
+  "no-sensor-selected": "Kein Sensor ausgewählt",
+  "min": "Minimum",
+  "max": "Maximum",
+  "navigation": {
+    "home": "Start",
+    "settings": "Einstellungen",
+    "view-detailed-data": "Detaillierte Daten anzeigen",
+    "view-long-term-data": "Langzeitdaten anzeigen",
+    "change-thresholds": "Grenzwerte ändern",
+    "add-new-plant": "Neue Pflanze hinzufügen",
+    "edit-plant-details": "Pflanzendetails bearbeiten",
+    "save-updated-thresholds": "Aktualisierte Grenzwerte speichern",
+    "save-new-plant": "Neue Pflanze speichern",
+    "save-new-details": "Details aktualisieren",
+    "back-to-dashboard": "Zurück zum Dashboard",
+    "update-details": "Details aktualisieren"
+  },
+  "languages": "Sprache ändern",
+  "locales": {
+    "en": "Englisch",
+    "ger": "Deutsch",
+    "fr": "Französisch",
+    "es": "Spanisch",
+    "it": "Italienisch",
+    "zh": "Mandarin Chinesisch",
+    "hi": "Hindi",
+    "ar": "Arabisch",
+    "pt": "Portugiesisch",
+    "ru": "Russisch",
+    "ja": "Japanisch",
+    "nl": "Niederländisch",
+    "ko": "Koreanisch"
+  },
+  "time-labels": {
+    "12AM": "00 Uhr",
+    "4AM": "04 Uhr",
+    "8AM": "08 Uhr",
+    "12PM": "12 Uhr",
+    "4PM": "16 Uhr",
+    "8PM": "20 Uhr"
+  },
+  "days-of-week": {
+    "week": "Woche",
+    "month": "Monat",
+    "mon": "Mo",
+    "tue": "Di",
+    "wed": "Mi",
+    "thu": "Do",
+    "fri": "Fr",
+    "sat": "Sa",
+    "sun": "So"
+  },
+  "time-ranges": {
+    "last-24h": "Letzte 24h",
+    "last-week": "Letzte sieben Tage",
+    "last-month": "Letzter Monat",
+    "last-year": "Letztes Jahr"
+  },
+  "months": {
+    "january": "Januar",
+    "february": "Februar",
+    "march": "März",
+    "april": "April",
+    "mai": "Mai",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "August",
+    "september": "September",
+    "october": "Oktober",
+    "november": "November",
+    "dezember": "Dezember"
+  },
+  "weeks": {
+    "week-one": "Woche 1",
+    "week-two": "Woche 2",
+    "week-three": "Woche 3",
+    "week-four": "Woche 4"
+  },
+  "current-value": "Aktueller Wert: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "Die Wassermenge im Boden im Verhältnis zu den Bedürfnissen des Baumes; für viele Bäume liegen optimale Bodenfeuchtigkeitswerte zwischen 50% und 60%.",
+    "tooltip-soil-temperature": "Die Wärme des Bodens in der Nähe des Baumes; übliche Schwellenwerte liegen normalerweise zwischen 10°C und 25°C",
+    "tooltip-soil-conductivity": "Die Fähigkeit des Bodens, Wasser und Nährstoffe zu transportieren; typische Schwellenwerte liegen zwischen 10 und 100 μS/cm"
+  },
+  "plant-details": {
+    "name-of-plant": "Name der Pflanze/des Baumes",
+    "tree-type": "Baumart",
+    "tree-type-options": {
+      "tree-option-one": "Avocado Pflanze",
+      "tree-option-two": "Ahornbaum",
+      "tree-option-three": "Eichenbaum",
+      "tree-option-four": "Kieferbaum",
+      "tree-option-five": "Birkenbaum",
+      "tree-option-six": "Fichtenbaum",
+      "tree-option-seven": "Eschenbaum",
+      "tree-option-eight": "Pappelbaum",
+      "tree-option-nine": "Weidenbaum",
+      "tree-option-ten": "Ulmenbaum"
+    },
+    "root-type": "Wurzelart",
+    "root-type-options": {
+      "root-option-one": "Tiefwurzel",
+      "root-option-two": "Flachwurzel",
+      "root-option-three": "Herzwurzel"
+    },
+    "end-device-id": "Endgeräte-ID"
+  },
+  "long-term-data-chart": "Langzeitdatendiagramm"
+}

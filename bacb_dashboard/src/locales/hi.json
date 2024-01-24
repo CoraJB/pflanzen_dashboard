@@ -1,0 +1,113 @@
+{
+  "plant-name": "एवोकाडो पौधा",
+  "needs-water": "पौधे को पानी की जरूरत है",
+  "enough-water": "पौधे में पर्याप्त पानी है",
+  "dashboard-name": "मिट्टी की नमी डैशबोर्ड",
+  "synchronise": "सिंक्रनाइज़ करें",
+  "dropdown-title": "पौधा चुनें",
+  "soil-moisture": "मिट्टी की नमी",
+  "soil-temperature": "मिट्टी का तापमान",
+  "soil-conductivity": "मिट्टी की चालकता",
+  "last-updated": "अंतिम अपडेट: ",
+  "no-sensor-selected": "कोई सेंसर नहीं चुना गया",
+  "min": "न्यूनतम",
+  "max": "अधिकतम",
+  "navigation": {
+    "home": "होम",
+    "settings": "सेटिंग्स",
+    "view-detailed-data": "विस्तृत डेटा देखें",
+    "view-long-term-data": "दीर्घकालिक डेटा देखें",
+    "change-thresholds": "सीमाओं में बदलाव करें",
+    "add-new-plant": "नया पौधा जोड़ें",
+    "edit-plant-details": "पौधे की जानकारी संपादित करें",
+    "save-updated-thresholds": "अपडेटेड सीमाओं को सेव करें",
+    "save-new-plant": "नया पौधा सेव करें",
+    "save-new-details": "नई जानकारी सेव करें",
+    "back-to-dashboard": "डैशबोर्ड पर वापस जाएँ",
+    "update-details": "जानकारी अपडेट करें"
+  },
+  "languages": "भाषा बदलें",
+  "locales": {
+    "en": "अंग्रेज़ी",
+    "ger": "जर्मन",
+    "fr": "फ्रेंच",
+    "es": "स्पेनिश",
+    "it": "इतालवी",
+    "zh": "मंडेरिन चाइनीज़",
+    "hi": "हिंदी",
+    "ar": "अरबी",
+    "pt": "पुर्तगाली",
+    "ru": "रूसी",
+    "ja": "जापानी",
+    "nl": "डच",
+    "ko": "कोरियाई"
+  },
+  "time-labels": {
+    "12AM": "रात 12 बजे",
+    "4AM": "सुबह 4 बजे",
+    "8AM": "सुबह 8 बजे",
+    "12PM": "दोपहर 12 बजे",
+    "4PM": "दोपहर 4 बजे",
+    "8PM": "रात 8 बजे"
+  },
+  "days-of-week": {
+    "week": "सप्ताह",
+    "month": "माह",
+    "mon": "सोम",
+    "tue": "मंगल",
+    "wed": "बुध",
+    "thu": "गुरु",
+    "fri": "शुक्र",
+    "sat": "शनि",
+    "sun": "रवि"
+  },
+  "time-ranges": {
+    "last-24h": "पिछले 24 घंटे",
+    "last-week": "पिछला सप्ताह",
+    "last-month": "पिछला महीना",
+    "last-year": "पिछला वर्ष"
+  },
+  "months": {
+    "january": "जनवरी",
+    "february": "फरवरी",
+    "march": "मार्च",
+    "april": "अप्रैल",
+    "mai": "मई",
+    "june": "जून",
+    "july": "जुलाई",
+    "august": "अगस्त",
+    "september": "सितंबर",
+    "october": "अक्तूबर",
+    "november": "नवंबर",
+    "dezember": "दिसंबर"
+  },
+  "weeks": {
+    "week-one": "सप्ताह 1",
+    "week-two": "सप्ताह 2",
+    "week-three": "सप्ताह 3",
+    "week-four": "सप्ताह 4"
+  },
+  "current-value": "वर्तमान मूल्य: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "मिट्टी में पानी की मात्रा वृक्ष की जरूरतों के सापेक्ष; कई वृक्षों के लिए, आदर्श मिट्टी की नमी स्तर 50% और 60% के बीच है।",
+    "tooltip-soil-temperature": "वृक्ष के पास की मिट्टी की गर्मी; सामान्य सीमाएं आमतौर पर 10°C से 25°C के बीच होती हैं।",
+    "tooltip-soil-conductivity": "मिट्टी का पानी और पोषक तत्वों को परिवहन करने की क्षमता; सामान्य सीमाएं 10 से 100 µS/cm के बीच होती हैं।"
+  },
+  "plant-details": {
+    "name-of-plant": "पौधा/वृक्ष का नाम",
+    "tree-type": "वृक्ष की प्रजाति",
+    "tree-type-options": {
+      "tree-option-one": "एवोकाडो वृक्ष",
+      "tree-option-two": "मेपल वृक्ष",
+      "tree-option-three": "ओक वृक्ष"
+    },
+    "root-type": "जड़ का प्रकार",
+    "root-type-options": {
+      "root-option-one": "गहरी जड़",
+      "root-option-two": "सतही जड़",
+      "root-option-three": "हृदय जड़"
+    },
+    "end-device-id": "अंतिम उपकरण ID"
+  },
+  "long-term-data-chart": "दीर्घकालीन डेटा चार्ट"
+}

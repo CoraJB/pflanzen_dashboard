@@ -1,0 +1,113 @@
+{
+  "plant-name": "نبات الأفوكادو",
+  "needs-water": "النبات يحتاج إلى الماء",
+  "enough-water": "النبات لديه ماء كافٍ",
+  "dashboard-name": "لوحة التحكم لرطوبة التربة",
+  "synchronize": "مزامنة",
+  "dropdown-title": "اختر نبات",
+  "soil-moisture": "رطوبة التربة",
+  "soil-temperature": "درجة حرارة التربة",
+  "soil-conductivity": "موصلية التربة",
+  "last-updated": "آخر تحديث: ",
+  "no-sensor-selected": "لم يتم اختيار أي مستشعر",
+  "min": "الأدنى",
+  "max": "الأعلى",
+  "navigation": {
+    "home": "الرئيسية",
+    "settings": "الإعدادات",
+    "view-detailed-data": "عرض البيانات التفصيلية",
+    "view-long-term-data": "عرض البيانات طويلة المدى",
+    "change-thresholds": "تغيير العتبات",
+    "add-new-plant": "إضافة نبات جديد",
+    "edit-plant-details": "تعديل تفاصيل النبات",
+    "save-updated-thresholds": "حفظ العتبات المحدثة",
+    "save-new-plant": "حفظ النبات الجديد",
+    "save-new-details": "حفظ التفاصيل الجديدة",
+    "back-to-dashboard": "العودة إلى لوحة التحكم",
+    "update-details": "تحديث التفاصيل"
+  },
+  "languages": "تغيير اللغة",
+  "locales": {
+    "en": "الإنجليزية",
+    "ger": "الألمانية",
+    "fr": "الفرنسية",
+    "es": "الإسبانية",
+    "it": "الإيطالية",
+    "zh": "الصينية الماندرينية",
+    "hi": "الهندية",
+    "ar": "العربية",
+    "pt": "البرتغالية",
+    "ru": "الروسية",
+    "ja": "اليابانية",
+    "nl": "الهولندية",
+    "ko": "الكورية"
+  },
+  "time-labels": {
+    "12AM": "12 صباحاً",
+    "4AM": "4 صباحاً",
+    "8AM": "8 صباحاً",
+    "12PM": "12 ظهراً",
+    "4PM": "4 عصراً",
+    "8PM": "8 مساءً"
+  },
+  "days-of-week": {
+    "week": "الأسبوع",
+    "month": "الشهر",
+    "mon": "الإثنين",
+    "tue": "الثلاثاء",
+    "wed": "الأربعاء",
+    "thu": "الخميس",
+    "fri": "الجمعة",
+    "sat": "السبت",
+    "sun": "الأحد"
+  },
+  "time-ranges": {
+    "last-24h": "آخر 24 ساعة",
+    "last-week": "الأسبوع الماضي",
+    "last-month": "الشهر الماضي",
+    "last-year": "السنة الماضية"
+  },
+  "months": {
+    "january": "يناير",
+    "february": "فبراير",
+    "march": "مارس",
+    "april": "إبريل",
+    "mai": "مايو",
+    "june": "يونيو",
+    "july": "يوليو",
+    "august": "أغسطس",
+    "september": "سبتمبر",
+    "october": "أكتوبر",
+    "november": "نوفمبر",
+    "dezember": "ديسمبر"
+  },
+  "weeks": {
+    "week-one": "الأسبوع الأول",
+    "week-two": "الأسبوع الثاني",
+    "week-three": "الأسبوع الثالث",
+    "week-four": "الأسبوع الرابع"
+  },
+  "current-value": "القيمة الحالية: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "كمية الماء في التربة مقارنةً بحاجة الشجرة؛ للعديد من الأشجار، النسب المثالية لرطوبة التربة تتراوح بين 50% و60%.",
+    "tooltip-soil-temperature": "حرارة التربة المحيطة بالشجرة؛ قيم العتبة النموذجية تتراوح عادةً بين 10°C و25°C",
+    "tooltip-soil-conductivity": "قدرة التربة على نقل الماء والمغذيات؛ قيم العتبة النموذجية تتراوح بين 10 و100 μS/cm"
+  },
+  "plant-details": {
+    "name-of-plant": "اسم النبات/الشجرة",
+    "tree-type": "نوع الشجرة",
+    "tree-type-options": {
+      "tree-option-one": "شجرة الأفوكادو",
+      "tree-option-two": "شجرة القيقب",
+      "tree-option-three": "شجرة البلوط"
+    },
+    "root-type": "نوع الجذور",
+    "root-type-options": {
+      "root-option-one": "جذور عميقة",
+      "root-option-two": "جذور سطحية",
+      "root-option-three": "جذور قلبية"
+    },
+    "end-device-id": "رقم تعريف الجهاز النهائي"
+  },
+  "long-term-data-chart": "مخطط البيانات طويلة المدى"
+}

@@ -1,0 +1,51 @@
+.header-style-add-new-plant {
+ display: flex;
+ justify-content: center;
+ margin-top: 2vh;
+}
+
+.status-container-add-new-plant {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 45vh;
+}
+
+.status-wrapper-add-new-plant {
+ display: flex;
+ align-items: center;
+ background-color: #f2f2f2;
+ border-radius: 20px;
+ padding-left: 1.5vw;
+ padding-right: 1.5vw;
+ margin-left: 25vw;
+ margin-right: 25vw;
+ flex-direction: column;
+}
+
+.bottom-bar-add-new-plant {
+ display: flex;
+ flex-direction: column;
+ margin-left: 10vw;
+ margin-top: 2vh;
+}
+
+.input-container-add-new-plant {
+ display: flex;
+ flex-direction: column;
+ margin: 1vh 1vw 2vh;
+}
+
+.label-text-add-new-plant {
+ margin-top: 1vh;
+ margin-bottom: 0.5vh;
+ font-weight: bold;
+}
+
+.scrollable-container {
+ margin-top: 2vh;
+ padding-top: 31vh;
+ margin-bottom: 4vh;
+ height: 80vh; /* Set a fixed height for the scrollable area */
+ overflow-y: auto; /* Enable vertical scrolling */
+}

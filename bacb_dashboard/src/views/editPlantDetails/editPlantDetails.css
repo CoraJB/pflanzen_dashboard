@@ -1,0 +1,43 @@
+.header-style-edit-plant-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.status-container-edit-plant-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+}
+
+.status-wrapper-edit-plant-details {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2; /* Set the background color to light gray */
+    border-radius: 20px; /* Add rounded corners */
+    padding: 1.5vw; /* Add padding to control spacing */
+    margin-left: 25vw;
+    margin-right: 25vw;
+    flex-direction: column;
+}
+
+.bottom-bar-edit-plant-details {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw;
+    bottom: 0;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 1vw;
+}
+
+.label-text-edit-plant-details {
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    font-weight: bold;
+}

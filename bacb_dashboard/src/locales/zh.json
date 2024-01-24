@@ -1,0 +1,113 @@
+{
+  "plant-name": "牛油果植物",
+  "needs-water": "植物需要浇水",
+  "enough-water": "植物有足够的水",
+  "dashboard-name": "土壤湿度仪表板",
+  "synchronize": "同步",
+  "dropdown-title": "选择植物",
+  "soil-moisture": "土壤湿度",
+  "soil-temperature": "土壤温度",
+  "soil-conductivity": "土壤导电性",
+  "last-updated": "最后更新：",
+  "no-sensor-selected": "未选择传感器",
+  "min": "最小值",
+  "max": "最大值",
+  "navigation": {
+    "home": "首页",
+    "settings": "设置",
+    "view-detailed-data": "查看详细数据",
+    "view-long-term-data": "查看长期数据",
+    "change-thresholds": "更改阈值",
+    "add-new-plant": "添加新植物",
+    "edit-plant-details": "编辑植物详情",
+    "save-updated-thresholds": "保存更新的阈值",
+    "save-new-plant": "保存新植物",
+    "save-new-details": "保存更新的详情",
+    "back-to-dashboard": "返回仪表板",
+    "update-details": "更新详情"
+  },
+  "languages": "更改语言",
+  "locales": {
+    "en": "英语",
+    "ger": "德语",
+    "fr": "法语",
+    "es": "西班牙语",
+    "it": "意大利语",
+    "zh": "普通话",
+    "hi": "印地语",
+    "ar": "阿拉伯语",
+    "pt": "葡萄牙语",
+    "ru": "俄语",
+    "ja": "日语",
+    "nl": "荷兰语",
+    "ko": "韩语"
+  },
+  "time-labels": {
+    "12AM": "凌晨12点",
+    "4AM": "凌晨4点",
+    "8AM": "上午8点",
+    "12PM": "中午12点",
+    "4PM": "下午4点",
+    "8PM": "晚上8点"
+  },
+  "days-of-week": {
+    "week": "周",
+    "month": "月",
+    "mon": "周一",
+    "tue": "周二",
+    "wed": "周三",
+    "thu": "周四",
+    "fri": "周五",
+    "sat": "周六",
+    "sun": "周日"
+  },
+  "time-ranges": {
+    "last-24h": "最近24小时",
+    "last-week": "过去七天",
+    "last-month": "上个月",
+    "last-year": "去年"
+  },
+  "months": {
+    "january": "一月",
+    "february": "二月",
+    "march": "三月",
+    "april": "四月",
+    "mai": "五月",
+    "june": "六月",
+    "july": "七月",
+    "august": "八月",
+    "september": "九月",
+    "october": "十月",
+    "november": "十一月",
+    "dezember": "十二月"
+  },
+  "weeks": {
+    "week-one": "第一周",
+    "week-two": "第二周",
+    "week-three": "第三周",
+    "week-four": "第四周"
+  },
+  "current-value": "当前值：",
+  "tooltips": {
+    "tooltip-soil-moisture": "相对于树木需求的土壤中的水分量；对于许多树木，理想的土壤湿度水平在50％到60％之间。",
+    "tooltip-soil-temperature": "树木附近土壤的热度；典型的阈值通常在10°C到25°C之间",
+    "tooltip-soil-conductivity": "土壤传输水分和养分的能力；典型阈值在10至100 μS/cm之间"
+  },
+  "plant-details": {
+    "name-of-plant": "植物/树木的名称",
+    "tree-type": "树木种类",
+    "tree-type-options": {
+      "tree-option-one": "牛油果树",
+      "tree-option-two": "枫树",
+      "tree-option-three": "橡树"
+    },
+    "root-type": "根部类型",
+    "root-type-options": {
+      "root-option-one": "深根",
+      "root-option-two": "浅根",
+      "root-option-three": "心根"
+    },
+    "end-device-id": "终端设备ID"
+  },
+  "long-term-data-chart": "长期数据图"
+}

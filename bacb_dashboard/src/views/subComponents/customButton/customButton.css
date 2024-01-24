@@ -1,0 +1,12 @@
+.button {
+    margin: 10px;
+    border-width: 2px;
+    width: 25vw;
+    height: 4.5vh;
+}
+
+.buttonText {
+    font-size: 17px;
+    font-family: Arial, serif;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+.status-container-detailed-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    padding: 2%;
+}
+
+.status-wrapper-detailed-data {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 1.5%;
+    margin: 0 10%; /* Adjust margin for smaller screens */
+}
+
+.header-style-detailed-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+}
+
+.status-bar {
+    width: 10%; /* Adjust width for responsiveness */
+}
+
+.status-bar-container {
+    width: 100%;
+    height: 5vh; /* Adjust height for responsiveness */
+}
+
+.bottom-bar-detailed-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    bottom: 0;
+    margin-top: 5%; /* Adjust margin for responsiveness */
+}
+
+.image {
+    height: 12vw; /* Adjust height as needed */
+    margin-left: 2%; /* Adjust margin for responsiveness */
+}

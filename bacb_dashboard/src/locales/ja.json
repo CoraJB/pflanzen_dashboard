@@ -1,0 +1,113 @@
+{
+  "plant-name": "アボカドの植物",
+  "needs-water": "植物には水が必要です",
+  "enough-water": "植物には十分な水があります",
+  "dashboard-name": "土壌湿度ダッシュボード",
+  "synchronise": "同期する",
+  "dropdown-title": "植物を選択",
+  "soil-moisture": "土壌湿度",
+  "soil-temperature": "土壌温度",
+  "soil-conductivity": "土壌導電度",
+  "last-updated": "最終更新日: ",
+  "no-sensor-selected": "センサーが選択されていません",
+  "min": "最小",
+  "max": "最大",
+  "navigation": {
+    "home": "ホーム",
+    "settings": "設定",
+    "view-detailed-data": "詳細データを表示",
+    "view-long-term-data": "長期データを表示",
+    "change-thresholds": "閾値を変更",
+    "add-new-plant": "新しい植物を追加",
+    "edit-plant-details": "植物の詳細を編集",
+    "save-updated-thresholds": "更新された閾値を保存",
+    "save-new-plant": "新しい植物を保存",
+    "save-new-details": "詳細を更新",
+    "back-to-dashboard": "ダッシュボードに戻る",
+    "update-details": "詳細を更新"
+  },
+  "languages": "言語の変更",
+  "locales": {
+    "en": "英語",
+    "ger": "ドイツ語",
+    "fr": "フランス語",
+    "es": "スペイン語",
+    "it": "イタリア語",
+    "zh": "中文（北京語）",
+    "hi": "ヒンディー語",
+    "ar": "アラビア語",
+    "pt": "ポルトガル語",
+    "ru": "ロシア語",
+    "ja": "日本語",
+    "nl": "オランダ語",
+    "ko": "韓国語"
+  },
+  "time-labels": {
+    "12AM": "午前12時",
+    "4AM": "午前4時",
+    "8AM": "午前8時",
+    "12PM": "午後12時",
+    "4PM": "午後4時",
+    "8PM": "午後8時"
+  },
+  "days-of-week": {
+    "week": "週",
+    "month": "月",
+    "mon": "月",
+    "tue": "火",
+    "wed": "水",
+    "thu": "木",
+    "fri": "金",
+    "sat": "土",
+    "sun": "日"
+  },
+  "time-ranges": {
+    "last-24h": "過去24時間",
+    "last-week": "過去7日間",
+    "last-month": "先月",
+    "last-year": "昨年"
+  },
+  "months": {
+    "january": "1月",
+    "february": "2月",
+    "march": "3月",
+    "april": "4月",
+    "mai": "5月",
+    "june": "6月",
+    "july": "7月",
+    "august": "8月",
+    "september": "9月",
+    "october": "10月",
+    "november": "11月",
+    "dezember": "12月"
+  },
+  "weeks": {
+    "week-one": "第1週",
+    "week-two": "第2週",
+    "week-three": "第3週",
+    "week-four": "第4週"
+  },
+  "current-value": "現在の値: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "木のニーズに応じた土壌中の水の量。多くの木にとって、最適な土壌湿度のレベルは50％から60％の間です。",
+    "tooltip-soil-temperature": "木の周りの土壌の温かさ。一般的な閾値の範囲は通常、10°Cから25°Cです。",
+    "tooltip-soil-conductivity": "水や養分を輸送する土壌の能力。一般的な閾値の範囲は10から100µS/cmです。"
+  },
+  "plant-details": {
+    "name-of-plant": "植物/木の名前",
+    "tree-type": "木の種類",
+    "tree-type-options": {
+      "tree-option-one": "アボカドの木",
+      "tree-option-two": "カエデの木",
+      "tree-option-three": "オークの木"
+    },
+    "root-type": "根の種類",
+    "root-type-options": {
+      "root-option-one": "深根",
+      "root-option-two": "平らな根",
+      "root-option-three": "ハート形の根"
+    },
+    "end-device-id": "エンドデバイスID"
+  },
+  "long-term-data-chart": "長期データチャート"
+}

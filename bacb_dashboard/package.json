@@ -1,0 +1,67 @@
+{
+  "name": "bacb_dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "rm -rf node_modules && npm i && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "docker-build": "docker build -t bacb-dashboard .",
+    "docker-run": "docker run -p 3000:3000 -d bacb-dashboard",
+    "docker-logs": "docker logs -f 293cac6bbea4",
+    "docker-stop": "docker stop 293cac6bbea4",
+    "docker-remove": "docker rm 293cac6bbea4",
+    "docker-restart": "npm run docker-stop && npm run docker-remove && npm run docker-build && npm run docker-run",
+    "build-and-run": "npm run build && npm run docker-build && npm run docker-run"
+  },
+  "dependencies": {
+    "@react-navigation/stack": "^6.3.20",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.59",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "antd": "^5.10.2",
+    "aws-amplify": "^5.3.11",
+    "aws-sdk": "^2.1480.0",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.1",
+    "faker": "npm:Faker@^0.7.2",
+    "i18next": "^23.6.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.3.1",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "react-tooltip": "^5.24.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "plant-name": "Planta de Abacate",
+  "needs-water": "A planta precisa ser regada",
+  "enough-water": "A planta tem água suficiente",
+  "dashboard-name": "Dashboard de Umidade do Solo",
+  "synchronise": "Sincronizar",
+  "dropdown-title": "Selecionar Planta",
+  "soil-moisture": "Umidade do Solo",
+  "soil-temperature": "Temperatura do Solo",
+  "soil-conductivity": "Condutividade do Solo",
+  "last-updated": "Última atualização: ",
+  "no-sensor-selected": "Nenhum sensor selecionado",
+  "min": "Mínimo",
+  "max": "Máximo",
+  "navigation": {
+    "home": "Início",
+    "settings": "Configurações",
+    "view-detailed-data": "Ver Dados Detalhados",
+    "view-long-term-data": "Ver Dados de Longo Prazo",
+    "change-thresholds": "Alterar Limites",
+    "add-new-plant": "Adicionar Nova Planta",
+    "edit-plant-details": "Editar Detalhes da Planta",
+    "save-updated-thresholds": "Salvar Limites Atualizados",
+    "save-new-plant": "Salvar Nova Planta",
+    "save-new-details": "Atualizar Detalhes",
+    "back-to-dashboard": "Voltar para o Painel",
+    "update-details": "Atualizar Detalhes"
+  },
+  "languages": "Alterar Idioma",
+  "locales": {
+    "en": "Inglês",
+    "ger": "Alemão",
+    "fr": "Francês",
+    "es": "Espanhol",
+    "it": "Italiano",
+    "zh": "Chinês Mandarim",
+    "hi": "Hindi",
+    "ar": "Árabe",
+    "pt": "Português",
+    "ru": "Russo",
+    "ja": "Japonês",
+    "nl": "Holandês",
+    "ko": "Coreano"
+  },
+  "time-labels": {
+    "12AM": "12 AM",
+    "4AM": "4 AM",
+    "8AM": "8 AM",
+    "12PM": "12 PM",
+    "4PM": "4 PM",
+    "8PM": "8 PM"
+  },
+  "days-of-week": {
+    "week": "Semana",
+    "month": "Mês",
+    "mon": "Seg",
+    "tue": "Ter",
+    "wed": "Qua",
+    "thu": "Qui",
+    "fri": "Sex",
+    "sat": "Sáb",
+    "sun": "Dom"
+  },
+  "time-ranges": {
+    "last-24h": "Últimas 24h",
+    "last-week": "Últimos Sete Dias",
+    "last-month": "Último Mês",
+    "last-year": "Último Ano"
+  },
+  "months": {
+    "january": "Janeiro",
+    "february": "Fevereiro",
+    "march": "Março",
+    "april": "Abril",
+    "mai": "Maio",
+    "june": "Junho",
+    "july": "Julho",
+    "august": "Agosto",
+    "september": "Setembro",
+    "october": "Outubro",
+    "november": "Novembro",
+    "dezember": "Dezembro"
+  },
+  "weeks": {
+    "week-one": "Semana 1",
+    "week-two": "Semana 2",
+    "week-three": "Semana 3",
+    "week-four": "Semana 4"
+  },
+  "current-value": "Valor Atual: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "A quantidade de água no solo em relação às necessidades da árvore; para muitas árvores, os níveis ideais de umidade do solo estão entre 50% e 60%.",
+    "tooltip-soil-temperature": "O calor do solo perto da árvore; os limites típicos geralmente variam entre 10°C e 25°C",
+    "tooltip-soil-conductivity": "A capacidade do solo de transportar água e nutrientes; os limites típicos variam entre 10 e 100 µS/cm"
+  },
+  "plant-details": {
+    "name-of-plant": "Nome da Planta/Árvore",
+    "tree-type": "Tipo de Árvore",
+    "tree-type-options": {
+      "tree-option-one": "Árvore de Abacate",
+      "tree-option-two": "Árvore de Bordo",
+      "tree-option-three": "Árvore de Carvalho"
+    },
+    "root-type": "Tipo de Raiz",
+    "root-type-options": {
+      "root-option-one": "Raiz Profunda",
+      "root-option-two": "Raiz Rasa",
+      "root-option-three": "Raiz em Forma de Coração"
+    },
+    "end-device-id": "ID do Dispositivo Final"
+  },
+  "long-term-data-chart": "Gráfico de Dados de Longo Prazo"
+}

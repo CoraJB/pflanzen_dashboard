@@ -1,0 +1,113 @@
+{
+  "plant-name": "Avocado Plant",
+  "needs-water": "Plant heeft water nodig",
+  "enough-water": "Plant heeft voldoende water",
+  "dashboard-name": "Dashboard Bodemvochtigheid",
+  "synchronise": "Synchroniseren",
+  "dropdown-title": "Selecteer plant",
+  "soil-moisture": "Bodemvochtigheid",
+  "soil-temperature": "Bodemtemperatuur",
+  "soil-conductivity": "Bodemgeleidbaarheid",
+  "last-updated": "Laatst bijgewerkt: ",
+  "no-sensor-selected": "Geen sensor geselecteerd",
+  "min": "Min",
+  "max": "Max",
+  "navigation": {
+    "home": "Home",
+    "settings": "Instellingen",
+    "view-detailed-data": "Bekijk gedetailleerde gegevens",
+    "view-long-term-data": "Bekijk langetermijngegevens",
+    "change-thresholds": "Wijzig drempelwaarden",
+    "add-new-plant": "Voeg nieuwe plant toe",
+    "edit-plant-details": "Bewerk plantdetails",
+    "save-updated-thresholds": "Sla bijgewerkte drempelwaarden op",
+    "save-new-plant": "Sla nieuwe plant op",
+    "save-new-details": "Werk details bij",
+    "back-to-dashboard": "Terug naar dashboard",
+    "update-details": "Werk details bij"
+  },
+  "languages": "Taal wijzigen",
+  "locales": {
+    "en": "Engels",
+    "ger": "Duits",
+    "fr": "Frans",
+    "es": "Spaans",
+    "it": "Italiaans",
+    "zh": "Mandarijn Chinees",
+    "hi": "Hindi",
+    "ar": "Arabisch",
+    "pt": "Portugees",
+    "ru": "Russisch",
+    "ja": "Japans",
+    "nl": "Nederlands",
+    "ko": "Koreaans"
+  },
+  "time-labels": {
+    "12AM": "12AM",
+    "4AM": "4AM",
+    "8AM": "8AM",
+    "12PM": "12PM",
+    "4PM": "4PM",
+    "8PM": "8PM"
+  },
+  "days-of-week": {
+    "week": "Week",
+    "month": "Maand",
+    "mon": "Ma",
+    "tue": "Di",
+    "wed": "Wo",
+    "thu": "Do",
+    "fri": "Vr",
+    "sat": "Za",
+    "sun": "Zo"
+  },
+  "time-ranges": {
+    "last-24h": "Afgelopen 24 uur",
+    "last-week": "Afgelopen week",
+    "last-month": "Afgelopen maand",
+    "last-year": "Afgelopen jaar"
+  },
+  "months": {
+    "january": "Januari",
+    "february": "Februari",
+    "march": "Maart",
+    "april": "April",
+    "mai": "Mei",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "Augustus",
+    "september": "September",
+    "october": "Oktober",
+    "november": "November",
+    "dezember": "December"
+  },
+  "weeks": {
+    "week-one": "Week 1",
+    "week-two": "Week 2",
+    "week-three": "Week 3",
+    "week-four": "Week 4"
+  },
+  "current-value": "Huidige waarde: ",
+  "tooltips": {
+    "tooltip-soil-moisture": "De hoeveelheid water in de bodem in verhouding tot de behoeften van de boom; voor veel bomen is het optimale vochtniveau van de bodem tussen 50% en 60%.",
+    "tooltip-soil-temperature": "De warmte van de bodem rondom de boom; typische drempelwaarden liggen meestal tussen 10°C en 25°C.",
+    "tooltip-soil-conductivity": "Het vermogen van de bodem om water en voedingsstoffen te transporteren; typische drempelwaarden liggen tussen 10 en 100 µS/cm."
+  },
+  "plant-details": {
+    "name-of-plant": "Naam van de Plant/Boom",
+    "tree-type": "Boompje Type",
+    "tree-type-options": {
+      "tree-option-one": "Avocado Boom",
+      "tree-option-two": "Esdoorn Boom",
+      "tree-option-three": "Eik Boom"
+    },
+    "root-type": "Type Wortel",
+    "root-type-options": {
+      "root-option-one": "Diepe Wortel",
+      "root-option-two": "Platte Wortel",
+      "root-option-three": "Hartvormige Wortel"
+    },
+    "end-device-id": "Eindapparaat ID"
+  },
+  "long-term-data-chart": "Langetermijngegevens Grafiek"
+}

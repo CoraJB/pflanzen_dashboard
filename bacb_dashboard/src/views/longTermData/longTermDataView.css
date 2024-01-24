@@ -1,0 +1,37 @@
+.header-style-long-term-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.status-container-long-term-data {
+    justify-content: center;
+}
+
+.status-wrapper-long-term-data {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2; /* Set the background color to light gray */
+    border-radius: 20px; /* Add rounded corners */
+    padding: 1.5vw; /* Add padding to control spacing */
+    margin-left: 15vw;
+    margin-right: 15vw;
+    flex-direction: column;
+}
+
+.checkbox {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.bottom-bar-long-term-data {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw;
+    bottom: 0;
+    margin-top: 4vh;
+}
