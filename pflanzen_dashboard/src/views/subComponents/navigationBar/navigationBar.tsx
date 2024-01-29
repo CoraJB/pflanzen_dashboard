@@ -5,7 +5,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {useAppState} from '../../../AppStateContext';
 import {useTranslation} from "react-i18next";
 import SensorsMock from "../../../assets/exampleSensorsMock.json"
-import {SensorEntry} from '../../../logic/interfaces';
+import LatestSensorDataMock from "../../../assets/latestSensorDataMock.json"
+import {SensorData, SensorEntry} from '../../../logic/interfaces';
+import {useEffect} from 'react';
 
 /**
  * The NavigationBar component is responsible for rendering the navigation bar at the top of the screen.
@@ -19,7 +21,7 @@ export default function NavigationBar() {
     // Translation function to translate text based on the current language
     const {t} = useTranslation();
     // Function to set the selected sensor in the app state
-    const {setSelectedSensor} = useAppState();
+    const {selectedSensor, setSelectedSensor, latestSensorData, setLatestSensorData} = useAppState();
 
     /**
      * Changes the language of the application when a language option is selected.
@@ -34,15 +36,31 @@ export default function NavigationBar() {
 
     /**
      * Sets the selected sensor based on the chosen sensor name from the dropdown menu.
+     * todo: Add database connection to replace Mock
      * @param selectedSensorName - The chosen sensor name.
      */
     const setSensor = (selectedSensorName: string) => {
-        for (let i = 0; i < SensorsMock.length; i++) {
-            if (selectedSensorName === SensorsMock[i].plantName) {
-                setSelectedSensor(SensorsMock[i] as SensorEntry);
+        const selectedEntry = SensorsMock.find(entry => entry.plantName === selectedSensorName);
+        if (selectedEntry) {
+            setSelectedSensor(selectedEntry);
+            const latestEntry = LatestSensorDataMock.find(entry => entry.device_id === selectedEntry.endDeviceID);
+            if (latestEntry) {
+                const latestSensorData = {
+                    device_id: latestEntry.device_id,
+                    conduct_SOIL: latestEntry.conduct_SOIL.toString(),
+                    temp_SOIL: latestEntry.temp_SOIL,
+                    water_SOIL: latestEntry.water_SOIL,
+                    time: latestEntry.time
+                } as SensorData;
+                setLatestSensorData(latestSensorData);
             }
         }
-    }
+    };
+    useEffect(() => {
+        if (SensorsMock) {
+            setSensor(SensorsMock[0].plantName)
+        }
+    }, []);
 
     return (
         <>

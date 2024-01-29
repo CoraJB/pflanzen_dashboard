@@ -11,7 +11,7 @@ interface AppStateContextType {
     selectedSensor: SensorEntry;
     setSelectedSensor: React.Dispatch<React.SetStateAction<SensorEntry>>;
     latestSensorData: SensorData;
-    setLatestSensorData?: React.Dispatch<React.SetStateAction<SensorData>>;
+    setLatestSensorData: React.Dispatch<React.SetStateAction<SensorData>>;
     registeredSensors: SensorEntry[];
     setRegisteredSensors?: React.Dispatch<React.SetStateAction<SensorEntry[]>>;
     treeItems: { label: string; value: string }[];
