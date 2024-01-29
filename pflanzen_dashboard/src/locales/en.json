@@ -10,6 +10,7 @@
   "soil-conductivity": "Soil Conductivity",
   "last-updated": "Last Updated: ",
   "no-sensor-selected": "No Sensor selected",
+  "no-sensor-data": "No Data from Sensor available, please wait for data to be available",
   "min": "Minimum",
   "max": "Maximum",
   "navigation": {

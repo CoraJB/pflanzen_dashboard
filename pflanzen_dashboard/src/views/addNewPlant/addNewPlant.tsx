@@ -54,7 +54,7 @@ export default function AddNewPlantView() {
         const a = document.createElement('a');
         const url = URL.createObjectURL(blob);
         a.href = url;
-        a.download = 'sensorData.json';
+        a.download = 'sensorDataMock.json';
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);

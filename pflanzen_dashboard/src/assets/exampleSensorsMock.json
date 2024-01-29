@@ -1,0 +1,38 @@
+[
+  {
+    "endDeviceID": "eui-a84041ae0186d47b",
+    "plantName": "Oak Tree",
+    "rootType": "Root1",
+    "soilConductivityMax": "45",
+    "soilConductivityMin": "20",
+    "soilMoistureMax": "20",
+    "soilMoistureMin": "6",
+    "soilTemperatureMax": "26",
+    "soilTemperatureMin": "10",
+    "treeType": "Oak"
+  },
+  {
+    "endDeviceID": "eui-a84041248185f280",
+    "plantName": "Antonia",
+    "rootType": "Root1",
+    "soilConductivityMax": "40",
+    "soilConductivityMin": "25",
+    "soilMoistureMax": "20",
+    "soilMoistureMin": "6",
+    "soilTemperatureMax": "20",
+    "soilTemperatureMin": "-5",
+    "treeType": "Avocado"
+  },
+  {
+    "endDeviceID": "eui-a84041248185f281",
+    "plantName": "Maple",
+    "rootType": "Root2",
+    "soilConductivityMax": "35",
+    "soilConductivityMin": "25",
+    "soilMoistureMax": "20",
+    "soilMoistureMin": "6",
+    "soilTemperatureMax": "40",
+    "soilTemperatureMin": "15",
+    "treeType": "Maple"
+  }
+]

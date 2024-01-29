@@ -1,4 +1,4 @@
-import React, {createContext, useContext, useEffect, useState} from 'react';
+import React, {createContext, useContext, useState} from 'react';
 import {SensorData, SensorEntry} from './logic/interfaces';
 
 interface AppStateContextType {
@@ -20,7 +20,6 @@ interface AppStateContextType {
     setRootItems: React.Dispatch<React.SetStateAction<{ label: string; value: string }[]>>;
     view: string; // New view state
     setView: React.Dispatch<React.SetStateAction<string>>; // New setView function
-    fillSelectedSensor: (sensorId: string) => Promise<void>;
 }
 
 const AppStateContext = createContext<AppStateContextType | undefined>(undefined);
@@ -45,20 +44,20 @@ export const AppStateProvider: React.FC = ({children}) => {
         endDeviceID: '',
         plantName: '',
         rootType: '',
-        soilConductivityMax: '10',
-        soilConductivityMin: '20',
-        soilMoistureMax: '50',
-        soilMoistureMin: '20',
-        soilTemperatureMax: '25',
-        soilTemperatureMin: '15',
+        soilConductivityMax: '',
+        soilConductivityMin: '',
+        soilMoistureMax: '',
+        soilMoistureMin: '',
+        soilTemperatureMax: '',
+        soilTemperatureMin: '',
         treeType: '',
     });
     const [latestSensorData, setLatestSensorData] = useState<SensorData>({
-        conduct_SOIL: '15',
+        conduct_SOIL: '',
         device_id: '',
-        temp_SOIL: '18',
+        temp_SOIL: '',
         time: '',
-        water_SOIL: '35',
+        water_SOIL: '',
     });
     const [registeredSensors, setRegisteredSensors] = useState<SensorEntry[]>([]);
     // treeItems state variable represents the items in the tree dropdown list.
@@ -83,32 +82,6 @@ export const AppStateProvider: React.FC = ({children}) => {
     ]);
     const [view, setView] = useState('dashboard');
 
-    const fetchDataFromDatabase = async (sensorId: string): Promise<SensorEntry> => {
-        // Replace this with your actual data fetching logic from the database
-        // For example, you might use fetch or Axios to make an API call
-        const response = await fetch(`/api/sensors/${sensorId}`);
-        return await response.json();
-    };
-
-    const fillSelectedSensor = async (sensorId: string) => {
-        try {
-            const jsonData = await fetchDataFromDatabase(sensorId);
-            setSelectedSensor((prevSelectedSensor) => ({
-                ...prevSelectedSensor,
-                ...jsonData,
-            }));
-        } catch (error) {
-            console.error('Error fetching data:', error);
-            // Handle error or set a default value for the selected sensor
-        }
-    };
-
-    useEffect(() => {
-        // Example: Fetching initial data when the component mounts
-        const initialSensorId = 'your-initial-sensor-id';
-        fillSelectedSensor(initialSensorId);
-    }, []);
-
     const state: AppStateContextType = {
         labelText,
         setLabelText,
@@ -128,7 +101,6 @@ export const AppStateProvider: React.FC = ({children}) => {
         setRootItems,
         view,
         setView,
-        fillSelectedSensor,
     };
 
     return <AppStateContext.Provider value={state}>{children}</AppStateContext.Provider>;
