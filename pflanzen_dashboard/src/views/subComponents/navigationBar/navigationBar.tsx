@@ -21,7 +21,7 @@ export default function NavigationBar() {
     // Translation function to translate text based on the current language
     const {t} = useTranslation();
     // Function to set the selected sensor in the app state
-    const {selectedSensor, setSelectedSensor, latestSensorData, setLatestSensorData} = useAppState();
+    const {setSelectedSensor, setLatestSensorData} = useAppState();
 
     /**
      * Changes the language of the application when a language option is selected.

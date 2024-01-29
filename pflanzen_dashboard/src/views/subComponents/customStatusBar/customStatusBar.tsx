@@ -9,51 +9,61 @@ type Props = {
     labelText: string;
 }
 
+/**
+ * The CustomStatusBar component is a custom status bar that visualizes a value within a range.
+ * It renders a progress bar with different colored segments to represent different value ranges.
+ * The bar is divided into sections of red (outside the range), green (within the range), and black (the current value).
+ *
+ * @param startValue - The start value of the range.
+ * @param endValue - The end value of the range.
+ * @param currentValue - The current value to be visualized in the bar.
+ * @param labelText - The label text to be displayed above the bar.
+ *
+ * @returns The rendered custom status bar component.
+ */
 export default function CustomStatusBar(props: Props) {
     const {t} = useTranslation();
     const {startValue, endValue, currentValue, labelText} = props;
 
-    const calculateSecondGreenWidth = () => {
-        return (100 - calculateGreenUntilCurrentValue()) - 2;
+    /**
+     * Calculates the width of the green segment within the range.
+     * @returns The width of the green segment within the range.
+     */
+    const calculateGreenWidth = (): number => {
+        return endValue - startValue;
     };
 
-    const calculateGreenUntilCurrentValue = (): number => {
-        return (100 - currentValue) - startValue;
-    }
-
-    const calculateRest = () => {
-        return 100 - endValue;
-    }
-
+    // Rendering the custom status bar component
     return (
-        <view>
-            <view>
-                <view className="container mt-3"
-                      style={{width: "100%"}}>
-                    <h5 style={{color: 'green'}}>
-                        {labelText}
-                    </h5>
-                    <text>{t("current-value")}{currentValue}</text>
-                    <view className="progress">
-                        <view className="progress-bar bg-danger"
-                              style={{width: `${startValue}%`}}>
-                        </view>
-                        <view className="progress-bar bg-success"
-                              style={{width: `${calculateGreenUntilCurrentValue()}%`}}>
-                            min: {startValue}
-                        </view>
-                        <view className="progress-bar bg-black"
-                              style={{width: "2%"}}>
-                        </view>
-                        <view className="progress-bar bg-success"
-                              style={{width: `${calculateSecondGreenWidth()}%`}}>
-                            max: {endValue}
-                        </view>
-                        <view className="progress-bar bg-danger" style={{width: `${calculateRest()}%`}}>
-                        </view>
-                    </view>
-                </view>
-            </view>
-        </view>
+        <div>
+            <div>
+                <div className="container mt-3" style={{ width: "100%" }}>
+                    <h5 style={{ color: "green" }}>{labelText}</h5>
+                    <p>
+                        {t("current-value")}
+                        {currentValue}, {t("min")} {startValue}, {t("max")} {endValue}
+                    </p>
+                    <div style={{ width: "100%", height: "25px", background: "darkred" }}>
+                        <div
+                            style={{
+                                width: `${calculateGreenWidth()}%`,
+                                height: "100%",
+                                background: "green",
+                                marginLeft: `${startValue}%`
+                            }}
+                        ></div>
+                        <div
+                            style={{
+                                width: "1%",
+                                height: "100%",
+                                marginLeft: `${currentValue}%`,
+                                background: "black",
+                                marginTop: "-25px"
+                            }}
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
-};
+}

@@ -16,8 +16,17 @@ type Props = {
     setMargin?: boolean;
 };
 
+/**
+ * The CustomMinMaxInput component is a custom input component that allows users to input minimum and maximum values.
+ * It renders an input form with labels and placeholders for minimum and maximum values.
+ * It also includes a tooltip with additional information and styling options.
+ * @returns The rendered custom input component.
+ * @param props
+ */
 export default function CustomMinMaxInput(props: Props) {
+    // Function to translate text based on the current language
     const {t} = useTranslation();
+    // Destructuring props to access values and setter functions
     const {
         minValue,
         setMinValue,

@@ -20,7 +20,7 @@
     "soilMoistureMax": "20",
     "soilMoistureMin": "6",
     "soilTemperatureMax": "20",
-    "soilTemperatureMin": "-5",
+    "soilTemperatureMin": "0",
     "treeType": "Avocado"
   },
   {
