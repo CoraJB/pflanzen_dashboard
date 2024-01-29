@@ -35,6 +35,8 @@ export default function AddNewPlantView() {
         selectedSensor.soilConductivityMax,
     );
 
+
+    // Todo exchange with DB connection
     const saveSensorToJson = () => {
         const sensorData = {
             endDeviceID: idValue,
@@ -150,11 +152,13 @@ export default function AddNewPlantView() {
                                     <CustomButton
                                         title={t('navigation.save-new-plant')}
                                         onPress={saveSensorToJson}
+                                        disabled={false}
                                         href={"dashboard"}
                                     />
                                     <CustomButton
                                         title={t('navigation.back-to-dashboard')}
                                         onPress={() => setView("dashboard")}
+                                        disabled={false}
                                         href={"dashboard"}
                                     />
                                 </div>

@@ -54,11 +54,13 @@ export default function DetailedDataView() {
                         <CustomButton
                             title={t('navigation.change-thresholds')}
                             onPress={() => setView("changeThresholds")}
+                            disabled={false}
                             href={"change-thresholds"}
                         />
                         <CustomButton
                             title={t('navigation.back-to-dashboard')}
                             onPress={() => setView("dashboard")}
+                            disabled={false}
                             href={"dashboard"}
                         />
                     </div>

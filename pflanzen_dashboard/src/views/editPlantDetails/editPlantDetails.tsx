@@ -11,6 +11,10 @@ export default function EditPlantDetailsView() {
     const [nameValue, setNameValue] = useState("");
     const [idValue, ] = useState("eui-a84041248185f280");
 
+    const saveNewSensor = async () => {
+        // todo: add database connection
+    };
+
     return (
         <view>
             <NavigationBar/>
@@ -63,11 +67,13 @@ export default function EditPlantDetailsView() {
                         <CustomButton
                             title={t('navigation.change-thresholds')}
                             onPress={() => setView('save-new-details')}
+                            disabled={false}
                             href={"change-thresholds"}
                         />
                         <CustomButton
                             title={t('navigation.back-to-dashboard')}
-                            onPress={() => setView("dashboard")}
+                            onPress={() => saveNewSensor()}
+                            disabled={false}
                             href={"dashboard"}
                         />
                     </view>

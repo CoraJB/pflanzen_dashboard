@@ -144,6 +144,7 @@ export default function DashboardView() {
                             <CustomButton
                                 title={t("navigation.add-new-plant")}
                                 onPress={() => setView('addNewPlant')}
+                                disabled={false}
                                 href={"add-new-plant"}
                             />
                         </div>
@@ -154,11 +155,13 @@ export default function DashboardView() {
                             <CustomButton
                                 title={t("navigation.change-thresholds")}
                                 onPress={() => setView('changeThresholds')}
+                                disabled={false}
                                 href={"change-thresholds"}
                             />
                             <CustomButton
                                 title={t("navigation.add-new-plant")}
                                 onPress={() => setView('addNewPlant')}
+                                disabled={false}
                                 href={"add-new-plant"}
                             />
                         </div>
@@ -169,21 +172,19 @@ export default function DashboardView() {
                         <CustomButton
                             title={t("navigation.view-detailed-data")}
                             onPress={() => setView('detailedData')}
+                            disabled={false}
                             href={"detailed-data"}
-                        />
-                        <CustomButton
-                            title={t("navigation.view-long-term-data")}
-                            onPress={() => setView('longTermData')}
-                            href={"view-long-term-data"}
                         />
                         <CustomButton
                             title={t("navigation.change-thresholds")}
                             onPress={() => setView('changeThresholds')}
+                            disabled={false}
                             href={"change-thresholds"}
                         />
                         <CustomButton
                             title={t("navigation.add-new-plant")}
                             onPress={() => setView('addNewPlant')}
+                            disabled={false}
                             href={"add-new-plant"}
                         />
                     </div>
