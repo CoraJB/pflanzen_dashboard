@@ -1,4 +1,4 @@
-## BACB Dashboard - Plant Monitoring System
+## Pflanzen Dashboard - Plant Monitoring System
 
 ### Introduction
 
@@ -69,6 +69,10 @@ The Plant Monitoring System is a web application designed to help users monitor 
 3. Install Dependencies
     ```bash
     npm install
+
+4. Run in Docker
+    ```bash
+    docker-compose up
 
 #### Usage
 
